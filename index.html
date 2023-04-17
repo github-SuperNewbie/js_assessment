@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="'en">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>
+        Welcome to Bala's webform
+    </title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+          <div class="logo">
+            <img src="images/logo.svg" alt="" />
+          </div>
+          <div class="image"></div>
+          <div class="text">
+            Start for free & get <br />
+            attractive offers today !
+          </div>
+        </div>
+        <form id="form" name="myform" onsubmit="return Validate()" action="/newhtml.html" method="post">
+          <div class="social">
+            <div class="title">Get Started</div>
+            <div class="question">
+              Already Have an Account? <br />
+              <span>Sign In</span>
+            </div>
+
+            <div class="btn">
+                <div class="btn-1">
+                  <img
+                    src="https://img.icons8.com/color/30/000000/google-logo.png"
+                  />
+                  <a href = "https://www.mail.google.com"> Sign Up </a>
+                </div>
+                <div class="btn-2">
+                  <img
+                    src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png"
+                  />
+                  <a href = "https://www.facebook.com" >Sign Up </a>
+                </div>
+              </div>
+    
+              <div class="or">Or</div>
+            </div>
+
+            <!-- form input starts from here -->
+
+            <div>
+                <label for="username">User Name</label>
+                <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="Joy Shaheb"
+                 />
+            </div>
+
+              <div>
+                <label for="email">Email</label>
+               
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="yourname@yourdomain.com"
+                />
+                
+              </div>
+
+              <div>
+                <label for="password">Password</label>
+                
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Enter password"
+                />
+                
+              </div>
+
+              <button type="submit" id="submit">Submit</button>
+            </form>
+          </div>
+
+</body>
+
+<script src="main.js"></script>
+</html>
